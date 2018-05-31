@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3633066320C03A3B00F2729E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633066220C03A3B00F2729E /* AppDelegate.m */; };
+		3633066620C03A3B00F2729E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633066520C03A3B00F2729E /* ViewController.m */; };
+		3633066920C03A3B00F2729E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3633066720C03A3B00F2729E /* Main.storyboard */; };
+		3633066B20C03A3B00F2729E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3633066A20C03A3B00F2729E /* Assets.xcassets */; };
+		3633066E20C03A3B00F2729E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3633066C20C03A3B00F2729E /* LaunchScreen.storyboard */; };
+		3633067120C03A3B00F2729E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633067020C03A3B00F2729E /* main.m */; };
+		3633067B20C03A3B00F2729E /* SKDeviceMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633067A20C03A3B00F2729E /* SKDeviceMonitorTests.m */; };
+		3633068620C03A3B00F2729E /* SKDeviceMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633068520C03A3B00F2729E /* SKDeviceMonitorUITests.m */; };
+		3633069620C03A8E00F2729E /* SKDeviceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633069520C03A8E00F2729E /* SKDeviceMonitor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3633067720C03A3B00F2729E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3633065620C03A3A00F2729E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3633065D20C03A3A00F2729E;
+			remoteInfo = SKDeviceMonitor;
+		};
+		3633068220C03A3B00F2729E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3633065620C03A3A00F2729E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3633065D20C03A3A00F2729E;
+			remoteInfo = SKDeviceMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3633065E20C03A3A00F2729E /* SKDeviceMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDeviceMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3633066120C03A3B00F2729E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3633066220C03A3B00F2729E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3633066420C03A3B00F2729E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3633066520C03A3B00F2729E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3633066820C03A3B00F2729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3633066A20C03A3B00F2729E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3633066D20C03A3B00F2729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3633066F20C03A3B00F2729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3633067020C03A3B00F2729E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3633067620C03A3B00F2729E /* SKDeviceMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDeviceMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3633067A20C03A3B00F2729E /* SKDeviceMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDeviceMonitorTests.m; sourceTree = "<group>"; };
+		3633067C20C03A3B00F2729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3633068120C03A3B00F2729E /* SKDeviceMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDeviceMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3633068520C03A3B00F2729E /* SKDeviceMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDeviceMonitorUITests.m; sourceTree = "<group>"; };
+		3633068720C03A3B00F2729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3633069420C03A8E00F2729E /* SKDeviceMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKDeviceMonitor.h; sourceTree = "<group>"; };
+		3633069520C03A8E00F2729E /* SKDeviceMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDeviceMonitor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3633065B20C03A3A00F2729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067320C03A3B00F2729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067E20C03A3B00F2729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3633065520C03A3A00F2729E = {
+			isa = PBXGroup;
+			children = (
+				3633066020C03A3A00F2729E /* SKDeviceMonitor */,
+				3633067920C03A3B00F2729E /* SKDeviceMonitorTests */,
+				3633068420C03A3B00F2729E /* SKDeviceMonitorUITests */,
+				3633065F20C03A3A00F2729E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3633065F20C03A3A00F2729E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3633065E20C03A3A00F2729E /* SKDeviceMonitor.app */,
+				3633067620C03A3B00F2729E /* SKDeviceMonitorTests.xctest */,
+				3633068120C03A3B00F2729E /* SKDeviceMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3633066020C03A3A00F2729E /* SKDeviceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				3633066120C03A3B00F2729E /* AppDelegate.h */,
+				3633066220C03A3B00F2729E /* AppDelegate.m */,
+				3633066420C03A3B00F2729E /* ViewController.h */,
+				3633069320C03A7500F2729E /* SKDeviceMonitor */,
+				3633066520C03A3B00F2729E /* ViewController.m */,
+				3633066720C03A3B00F2729E /* Main.storyboard */,
+				3633066A20C03A3B00F2729E /* Assets.xcassets */,
+				3633066C20C03A3B00F2729E /* LaunchScreen.storyboard */,
+				3633066F20C03A3B00F2729E /* Info.plist */,
+				3633067020C03A3B00F2729E /* main.m */,
+			);
+			path = SKDeviceMonitor;
+			sourceTree = "<group>";
+		};
+		3633067920C03A3B00F2729E /* SKDeviceMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3633067A20C03A3B00F2729E /* SKDeviceMonitorTests.m */,
+				3633067C20C03A3B00F2729E /* Info.plist */,
+			);
+			path = SKDeviceMonitorTests;
+			sourceTree = "<group>";
+		};
+		3633068420C03A3B00F2729E /* SKDeviceMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3633068520C03A3B00F2729E /* SKDeviceMonitorUITests.m */,
+				3633068720C03A3B00F2729E /* Info.plist */,
+			);
+			path = SKDeviceMonitorUITests;
+			sourceTree = "<group>";
+		};
+		3633069320C03A7500F2729E /* SKDeviceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				3633069420C03A8E00F2729E /* SKDeviceMonitor.h */,
+				3633069520C03A8E00F2729E /* SKDeviceMonitor.m */,
+			);
+			path = SKDeviceMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3633065D20C03A3A00F2729E /* SKDeviceMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3633068A20C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitor" */;
+			buildPhases = (
+				3633065A20C03A3A00F2729E /* Sources */,
+				3633065B20C03A3A00F2729E /* Frameworks */,
+				3633065C20C03A3A00F2729E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDeviceMonitor;
+			productName = SKDeviceMonitor;
+			productReference = 3633065E20C03A3A00F2729E /* SKDeviceMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3633067520C03A3B00F2729E /* SKDeviceMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3633068D20C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitorTests" */;
+			buildPhases = (
+				3633067220C03A3B00F2729E /* Sources */,
+				3633067320C03A3B00F2729E /* Frameworks */,
+				3633067420C03A3B00F2729E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3633067820C03A3B00F2729E /* PBXTargetDependency */,
+			);
+			name = SKDeviceMonitorTests;
+			productName = SKDeviceMonitorTests;
+			productReference = 3633067620C03A3B00F2729E /* SKDeviceMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3633068020C03A3B00F2729E /* SKDeviceMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3633069020C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitorUITests" */;
+			buildPhases = (
+				3633067D20C03A3B00F2729E /* Sources */,
+				3633067E20C03A3B00F2729E /* Frameworks */,
+				3633067F20C03A3B00F2729E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3633068320C03A3B00F2729E /* PBXTargetDependency */,
+			);
+			name = SKDeviceMonitorUITests;
+			productName = SKDeviceMonitorUITests;
+			productReference = 3633068120C03A3B00F2729E /* SKDeviceMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3633065620C03A3A00F2729E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sakya;
+				TargetAttributes = {
+					3633065D20C03A3A00F2729E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3633067520C03A3B00F2729E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3633065D20C03A3A00F2729E;
+					};
+					3633068020C03A3B00F2729E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3633065D20C03A3A00F2729E;
+					};
+				};
+			};
+			buildConfigurationList = 3633065920C03A3A00F2729E /* Build configuration list for PBXProject "SKDeviceMonitor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3633065520C03A3A00F2729E;
+			productRefGroup = 3633065F20C03A3A00F2729E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3633065D20C03A3A00F2729E /* SKDeviceMonitor */,
+				3633067520C03A3B00F2729E /* SKDeviceMonitorTests */,
+				3633068020C03A3B00F2729E /* SKDeviceMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3633065C20C03A3A00F2729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633066E20C03A3B00F2729E /* LaunchScreen.storyboard in Resources */,
+				3633066B20C03A3B00F2729E /* Assets.xcassets in Resources */,
+				3633066920C03A3B00F2729E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067420C03A3B00F2729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067F20C03A3B00F2729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3633065A20C03A3A00F2729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633066620C03A3B00F2729E /* ViewController.m in Sources */,
+				3633067120C03A3B00F2729E /* main.m in Sources */,
+				3633069620C03A8E00F2729E /* SKDeviceMonitor.m in Sources */,
+				3633066320C03A3B00F2729E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067220C03A3B00F2729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633067B20C03A3B00F2729E /* SKDeviceMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3633067D20C03A3B00F2729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633068620C03A3B00F2729E /* SKDeviceMonitorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3633067820C03A3B00F2729E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3633065D20C03A3A00F2729E /* SKDeviceMonitor */;
+			targetProxy = 3633067720C03A3B00F2729E /* PBXContainerItemProxy */;
+		};
+		3633068320C03A3B00F2729E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3633065D20C03A3A00F2729E /* SKDeviceMonitor */;
+			targetProxy = 3633068220C03A3B00F2729E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3633066720C03A3B00F2729E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3633066820C03A3B00F2729E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3633066C20C03A3B00F2729E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3633066D20C03A3B00F2729E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3633068820C03A3B00F2729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3633068920C03A3B00F2729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3633068B20C03A3B00F2729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3633068C20C03A3B00F2729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3633068E20C03A3B00F2729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDeviceMonitor.app/SKDeviceMonitor";
+			};
+			name = Debug;
+		};
+		3633068F20C03A3B00F2729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDeviceMonitor.app/SKDeviceMonitor";
+			};
+			name = Release;
+		};
+		3633069120C03A3B00F2729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDeviceMonitor;
+			};
+			name = Debug;
+		};
+		3633069220C03A3B00F2729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = SKDeviceMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakya.SKDeviceMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDeviceMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3633065920C03A3A00F2729E /* Build configuration list for PBXProject "SKDeviceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3633068820C03A3B00F2729E /* Debug */,
+				3633068920C03A3B00F2729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3633068A20C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3633068B20C03A3B00F2729E /* Debug */,
+				3633068C20C03A3B00F2729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3633068D20C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3633068E20C03A3B00F2729E /* Debug */,
+				3633068F20C03A3B00F2729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3633069020C03A3B00F2729E /* Build configuration list for PBXNativeTarget "SKDeviceMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3633069120C03A3B00F2729E /* Debug */,
+				3633069220C03A3B00F2729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3633065620C03A3A00F2729E /* Project object */;
+}
